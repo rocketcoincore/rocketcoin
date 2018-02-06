@@ -1,0 +1,39 @@
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install scrypt construct==2.5.2
+
+DO NOT RUN UPDATE TO OS OR THIS WILL NOT RUN CORRECTLY
+
+python genesis.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1515777642 -n 2084524493
+
+///////////////////////////////////////////
+TO GET DATE date +%s
+PROD
+python genhash.py -a scrypt -z "On 01/19/2018 day we have decided to create a new coin to prevent lost transactions" -t 1516397816
+
+python genhash.py -a scrypt -z "On 01/19/2018 day we have decided to create a new coin to prevent lost transactions" -p "04296afdb0fe5598671967f1a67130b7105cd6a828e03909a67962e0ea1f61deb789f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d758a4c702b6bf11d5f" -t 1516397816 -n 1074078
+
+merkle hash: 81effc68a5b0b0d4524bfd7f0ddeaea767e050c3390c6fd9e3c9454fead86466
+gen hash: 4ebc9b1d3abd477ea6ff3184362f0c280ea4463b8b5b832b5e222b150b1ddfea
+nonce: 1074078
+
+//////////////////////////////
+
+TEST
+python genhash.py -a scrypt -z "On 01/12/2018 day create a newcoin testnet to prevent lost transactions" -t 1515777642
+
+python genhash.py -a scrypt -z "On 01/12/2018 day create a newcoin testnet to prevent lost transactions" -p "04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f" -t 1515777642 -n 771681
+
+merkle: 88ec68dbef59ab06419fe7bff9926a3682d23babbcdb724f88d14a07b197591b
+nonce: 771681
+genesis hash: b4cc273d1a878e4cf1f1dd85b23c1a5073145388d00a4e269329135cbdee5c33
+
+////////////////////////////////////
+
+python genhash.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1317972665 -n 2084524493
+
+
+python genhash.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1317972665 -n 2084524493
+ 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+
+
+
