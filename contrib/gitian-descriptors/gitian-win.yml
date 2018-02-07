@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/rocketcoin-project/rocketcoin.git"
+- "url": "https://github.com/rocketcoincore//rocketcoin.git"
   "dir": "rocketcoin"
 files: []
 script: |

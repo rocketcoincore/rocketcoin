@@ -33,7 +33,7 @@ Build Rocketcoin Core
 
 1. Clone the rocketcoin source code and cd into `rocketcoin`
 
-        git clone https://github.com/rocketcoin-project/rocketcoin
+        git clone https://github.com/rocketcoincore//rocketcoin
         cd rocketcoin
 
 2.  Build rocketcoin-core:

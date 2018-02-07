@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/rocketcoin-project/rocketcoin-detached-sigs.git"
+- "url": "https://github.com/rocketcoincore//rocketcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "rocketcoin-osx-unsigned.tar.gz"

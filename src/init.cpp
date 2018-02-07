@@ -525,7 +525,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/rocketcoin-project/rocketcoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/rocketcoincore//rocketcoin>";
     const std::string URL_WEBSITE = "<https://rocketcoin.info>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i"), COPYRIGHT_YEAR) + " ") + "\n" +
