@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[rocketcoin-project/gitian.sigs.ltc](https://github.com/rocketcoincore//gitian.sigs.rckt/) repository, or if that's not possible create a pull
+[rocketcoin-project/gitian.sigs.rckt](https://github.com/rocketcoincore//gitian.sigs.rckt/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.
