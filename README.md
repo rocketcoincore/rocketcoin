@@ -1,7 +1,7 @@
 Rocketcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/rocketcoin-project/rocketcoin.svg?branch=master)](https://travis-ci.org/rocketcoin-project/rocketcoin)
+[![Build Status](https://travis-ci.org/rocketcoincore/rocketcoin.svg?branch=master)](https://travis-ci.org/rocketcoincore/rocketcoin)
 
 https://rocketcoin.info
 
@@ -85,3 +85,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
+
