@@ -104,17 +104,3 @@ script:
 after_script:
 - echo $TRAVIS_COMMIT_RANGE
 - echo $TRAVIS_COMMIT_LOG
-deploy:
-  provider: releases
-  api_key:
-    secure: oJHUZIUq4HsYZgF2h/AWoE/hdA9GkQS98Tq8RqQR6bEgV9nDtTS6uw4gYjMIivKESuNy5HvmsLbqyOu7+ux3CmaEN4ku69tP82gHuXoBdNeYRyqLVyNyO4X+kNOICYe5nJ+fJ8NvBLgZga3J2dE+wciiOf9lTjSlIkKPJ/dXQy8HhmPZhHw2TDlNy1XU1E/AV0o7fEJFgbOpMAJ3Zsi39tLIztrqTCMYVCJdaC/cp3VFhRVqNOHFqZha6jJCsfWOn+4OCRRkTUncFtxEzlAimlOq5e6gLEwGYvkgRJZBJ+tzL5phisebUxfIWRPMzGxwDVEyqPwHIWgNyve1/Nbz26YIMws++Jfv4BgeZZVc4ceLOZYchG+O3mrsCWvULMJTh4rZ4Ff5dRZv1pm4NWo2go5sVRb2ATcYGmewxqSYkK8CrOvaWDmNolxOBzrLkl540/yYXYHRGUf2uGJIvSYjKpBRc7JNs8pNx27WFVYcPOk3/vLPJM+uQH5K3PhInIzluKqNv9q7HBt68EeYy7SkaSrCiHo09VqMYdoz5KRzvkPwO/wRGYy18wr9GAHWiqXvvU2oTrvaab5/eogXmQDgKbvNrbPI11xujPTzrai9jNy9x+g9l1Wd0uOLIkPAATV28Phftb/hoZDjgUu9xIp6M18TSnG+tjNUjaVeEN6E+KA=
-  file_glob: true           
-  file: 'src/rockcoin*'
-  file: 'src/qt/rocketcoin*'
-  file: 'COPYING'
-  file: 'README.md'
-  on:
-    repo: rocketcoincore/rocketcoin
-  skip_cleanup: true
-  on:
-    tags: false            
